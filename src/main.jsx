@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import ProtectedRoute from "./components/ProtectedRoute";
+import ProtectedRoute from "./Components/ProtectedRoute.jsx";
 import { AuthProvider } from "./context/AuthContext";
 import { Navigate } from "react-router-dom"; // add this at top
 
